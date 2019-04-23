@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Regular Expression Form Validation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto mt-5">
+                <h1>User Form</h1>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                        <div class="invalid-feedback">
+                            name must be 2 and 10 character
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="ZipCode">ZipCode</label>
+                        <input type="ZipCode" class="form-control" id="ZipCode" placeholder="ZipCode">
+                        <div class="invalid-feedback">
+                            Enter A valid zipcode
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" class="form-control" id="Email" placeholder="Email">
+                        <div class="invalid-feedback">
+                            Enter A valid email
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone">Phone</label>
+                        <input type="text" class="form-control" id="Phone" placeholder="Phone">
+                        <div class="invalid-feedback">
+                            Enter A valid Phone
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" class="btn btn-primary btn-block">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
